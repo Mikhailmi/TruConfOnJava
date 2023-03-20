@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name" translatable="false">TrueConf</string>
+    <string name="Hello">HELLO</string>
+</resources>
