@@ -62,8 +62,6 @@ public class MainActivity extends AppCompatActivity implements OnTouchListener {
         else if (Locale.getDefault().getCountry().equals("EN")) binding.textView.setTextColor(
                 R.color.red
         );
-        else binding.textView.setTextColor(
-                    R.color.black);
         binding.container.invalidate();
         upMove = false;
         Runnable runnable = () -> {
